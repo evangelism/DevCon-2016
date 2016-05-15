@@ -6,10 +6,11 @@ IoT-интенсив позволит вам за один день познакомиться с основными аспектами созда
 ##Требуемое оборудование и программное обеспечение
 
 Для выполнения интенсива вам понадобятся:
-1. Raspberry Pi 3
-2. Трехцветный светодиод
-3. Датчик температуры/давления BMP-180
-4. Доступ в облако Microsoft Azure
-5. Visual Studio 2015 Update 2
-6. [Windows IoT Core Dashboard](http://go.microsoft.com/fwlink/?LinkID=708576)
+
+ 1. Raspberry Pi 3
+ 2. Трехцветный светодиод
+ 3. Датчик температуры/давления BMP-180
+ 4. Доступ в облако Microsoft Azure
+ 5. Visual Studio 2015 Update 2
+ 6. [Windows IoT Core Dashboard](http://go.microsoft.com/fwlink/?LinkID=708576)
 
