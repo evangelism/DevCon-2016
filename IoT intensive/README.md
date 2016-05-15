@@ -1,2 +1,15 @@
-# intensive
-This repo contains some materials and HOLs for intensive
+#DevCon 2016: IoT-интенсив 
+
+IoT-интенсив позволит вам за один день познакомиться с основными аспектами создания IoT-систем: от устройств на базе микрокомпьютеров и микроконтроллеров,
+до облачного бэкенда и аналитики.
+
+##Требуемое оборудование и программное обеспечение
+
+Для выполнения интенсива вам понадобятся:
+1. Raspberry Pi 3
+2. Трехцветный светодиод
+3. Датчик температуры/давления BMP-180
+4. Доступ в облако Microsoft Azure
+5. Visual Studio 2015 Update 2
+6. [Windows IoT Core Dashboard](http://go.microsoft.com/fwlink/?LinkID=708576)
+
