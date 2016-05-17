@@ -27,6 +27,8 @@ namespace Lab3.Measure_Temp
         BMP180 Sens;
         DispatcherTimer dt = new DispatcherTimer() { Interval = TimeSpan.FromSeconds(1) };
 
+        MultiLED LED = new MultiLED(new int[] { 17, 27, 22 });
+
         public MainPage()
         {
             this.InitializeComponent();
@@ -42,7 +44,13 @@ namespace Lab3.Measure_Temp
 
         private void ReMeasure(object sender, object e)
         {
-            txt.Text = $"{Sens.Temperature}C";
+            var t = Sens.Temperature;
+            txt.Text = $"{t}C";
+            if (t < 21) LED.SetInt(0);
+            else if (t < 25) LED.SetInt(1);
+            else if (t < 28) LED.SetInt(2);
+            else if (t < 31) LED.SetInt(4);
+            else LED.SetInt(7);
         }
     }
 }

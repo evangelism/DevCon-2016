@@ -51,4 +51,14 @@
 
 ![LED Layout](../images/LEDLayout.PNG)
 
+## Управляем светодиодом
 
+Для управления светодиодом необходимо устанавливать соответствующие выводы (пины) контроллера в высокое или низкое состояние. Для работы с пинами используется
+класс GpioController, следующим образом:
+
+```
+   var Gpio = GpioController.GetDefault();
+   var pin = Gpio.OpenPin(17);
+   pin.SetDriveMode(GpioPinDriveMode.Output);
+   pin.Write(GpioPinValue.Low);
+```
