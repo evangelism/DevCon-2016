@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3. Measure Temp", "Lab3. Measure Temp\Lab3. Measure Temp.csproj", "{D943482D-8771-4A03-8F00-FCA0422E3225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|ARM.Build.0 = Debug|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|ARM.Deploy.0 = Debug|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x64.ActiveCfg = Debug|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x64.Build.0 = Debug|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x64.Deploy.0 = Debug|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x86.ActiveCfg = Debug|x86
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x86.Build.0 = Debug|x86
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Debug|x86.Deploy.0 = Debug|x86
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|ARM.ActiveCfg = Release|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|ARM.Build.0 = Release|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|ARM.Deploy.0 = Release|ARM
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x64.ActiveCfg = Release|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x64.Build.0 = Release|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x64.Deploy.0 = Release|x64
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x86.ActiveCfg = Release|x86
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x86.Build.0 = Release|x86
+		{D943482D-8771-4A03-8F00-FCA0422E3225}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
