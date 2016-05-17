@@ -22,25 +22,6 @@ using Windows.UI.Xaml.Navigation;
 namespace Lab4.TempToCloud
 {
 
-    public class TempData
-    {
-        public string Id { get; set; }
-        public double Temperature { get; set; }
-        public DateTime Time { get; set; }
-
-        public int Table { get; set; }
-
-        public int No { get; set; }
-        public TempData(string id, double Temp, int Table, int No)
-        {
-            Time = DateTime.Now;
-            Temperature = Temp;
-            Id = id;
-            this.Table = Table;
-            this.No = No;
-        }
-    }
-
     /// <summary>
     /// Пустая страница, которую можно использовать саму по себе или для перехода внутри фрейма.
     /// </summary>
