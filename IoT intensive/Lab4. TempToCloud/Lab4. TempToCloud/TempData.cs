@@ -11,9 +11,7 @@ namespace Lab4.TempToCloud
         public string Id { get; set; }
         public double Temperature { get; set; }
         public DateTime Time { get; set; }
-
         public int Table { get; set; }
-
         public int No { get; set; }
         public TempData(string id, double Temp, int Table, int No)
         {
