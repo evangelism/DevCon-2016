@@ -28,8 +28,8 @@ namespace Lab4.TempToCloud
     public sealed partial class MainPage : Page
     {
         private const string DeviceConnectionString = "HostName=Hub13.azure-devices.net;DeviceId=RPi;SharedAccessKey=7yn6xx7mZ1IXQvYNZeGIdQOA+mRqaT9xK7FEiwzyu/U=";
-        private const int Table = 1;
-        private const int No = 13;
+        private const int Table = 3;
+        private const int No = 7;
 
         private DeviceClient iothub;
 
