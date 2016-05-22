@@ -116,10 +116,10 @@ GROUP BY Id,[Table],No,TumblingWindow(Duration(second,5))
 Частый сценарий использования Stream Analytics - предупреждение о чрезвычайных ситуациях. Добавим ещё один источник выходных данных с псевдонимом
 `OutAlert`, указывающий на Event Hub со следующими параметрами:
 
-    * Пространство имён служебной шины: DevConHub-ns
-    * Имя концентратора событий: devconhub
-    * Имя политики концентратора событий: RootManageSharedAccessKey
-    * Ключ политики концентратора событий: QEZ4Gvc+QXhr4DiVpGf2XSVL1Yo7bc/g+aqK3uVrfjg=
+ * Пространство имён служебной шины: DevConHub-ns
+ * Имя концентратора событий: devconhub
+ * Имя политики концентратора событий: RootManageSharedAccessKey
+ * Ключ политики концентратора событий: QEZ4Gvc+QXhr4DiVpGf2XSVL1Yo7bc/g+aqK3uVrfjg=
 
 Далее добавим в конец запроса следующий запрос (для этого потребуется приостановить задание Stream Analytics и затем снова его запустить):
 
