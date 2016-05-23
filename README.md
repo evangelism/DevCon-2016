@@ -3,6 +3,7 @@
 <h2>О конференции</h2>
 DevCon — крупнейшая конференция Microsoft для разработчиков в России.<br>
 Сайт конференции: <a href="http://msdevcon.ru">msdevcon.ru</a>
+Анонсы конференции в официальном блоге: <a href="https://habrahabr.ru/search/?target_type=posts&q=%5Bdevcon%202016%5D&order_by=date">devcon 2016</a> 
 
 <h2>Список интенсивов</h2>
 <ul>
