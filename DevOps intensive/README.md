@@ -27,6 +27,6 @@
 <h2>Состав интенсива</h2>
 <ul>
 <li>Часть 1: Проблематика индустрии и DevOps. Влияние на архитектуру и все вытекающие при управлении процессами внутри компании</li>
-<li>Часть 2: Как мы внедряли DevOps. Реальная история проекта Vorlon.JS внутри компании Microsoft</li>
-<li>Часть 3: Локальная инфраструктура и неограниченные возможности для DevOps</li>
+<li><a href="https://github.com/evangelism/DevCon-2016/tree/master/DevOps%20intensive/Lab%202%20-%20Journey%20to%20DevOps">Часть 2: Как мы внедряли DevOps. Реальная история проекта Vorlon.JS внутри компании Microsoft</a></li>
+<li><a href="https://github.com/evangelism/DevCon-2016/tree/master/DevOps%20intensive/Lab%203%20-%20Azure%20Stack%20and%20local%20infrastructure">Часть 3: Локальная инфраструктура и неограниченные возможности для DevOps</a></li>
 </ul>
