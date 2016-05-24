@@ -10,7 +10,7 @@
 <li>Авторы: <a href="https://twitter.com/ashapoval">Александр Шаповал</a></li>
 </ul>
 
-<h2>Полезные ссылки<h2>
+<h2>Полезные ссылки</h2>
 <ul>
 <li><a href="aka.ms/azurestackdocs">Документация, установка</a></li>
 <li><a href="aka.ms/azurestackwhitepaper">Концепция Azure Stack</a></li>
