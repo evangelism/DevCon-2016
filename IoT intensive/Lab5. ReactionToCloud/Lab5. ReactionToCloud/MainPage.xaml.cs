@@ -32,8 +32,8 @@ namespace Lab5.ReactionToCloud
 
         private const string Id = "rpi3";
         private const string DeviceConnectionString = "HostName=ReactionHub.azure-devices.net;DeviceId=rpi3;SharedAccessKey=uG8tNYl+RfEF312enlGh62HP8RrB8vNGUFEcSQ0m7gQ=";
-        private const string Nick = "vickievalerie";
-        private const int Age = 12;
+        private const string Nick = "loriz";
+        private const int Age = 41;
         private const string Sex = "F";
         private const int Dizz = 2;
         // 0 - нормальное состояние
