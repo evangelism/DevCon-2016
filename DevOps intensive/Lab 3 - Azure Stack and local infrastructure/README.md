@@ -6,7 +6,7 @@
 Третья часть полностью посвящена абсолютно новой технологии Azure Stack и рассказывает, как использовать инструменты и практики DevOps на базе локальной инфраструктуры.
 
 <ul>
-<li>Практические материалы</li>
+<li><a href="https://github.com/evangelism/DevCon-2016/raw/master/DevOps%20intensive/Lab%203%20-%20Azure%20Stack%20and%20local%20infrastructure/DevCon%202016%20DevOps%20Azure%20Stack%20Labs.pdf">Практические материалы</li></a>
 <li>Авторы: <a href="https://twitter.com/ashapoval">Александр Шаповал</a></li>
 </ul>
 
