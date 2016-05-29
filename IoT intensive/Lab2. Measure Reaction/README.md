@@ -13,14 +13,16 @@
 с так называемым pullup (чтобы в разомкнутом состоянии кнопки вход находился в высоком уровне):
 
 ```
-var gpio = GpioController.GetDefault();pin = gpio.OpenPin(26);        
+var gpio = GpioController.GetDefault();
+pin = gpio.OpenPin(26);        
 pin.SetDriveMode(GpioPinDriveMode.InputPullUp);
 ```
 
 Затем можно работать со входом двумя способами: считывая сигнал с помощью `pin.Read()`, или определив реакцию на прерывание
 (т.е. чтобы при нажатии кнопки вызывалась некоторая функция):
 ```
-var gpio = GpioController.GetDefault();pin = gpio.OpenPin(26);        
+var gpio = GpioController.GetDefault();
+pin = gpio.OpenPin(26);        
 pin.SetDriveMode(GpioPinDriveMode.InputPullUp);
 pin.DebounceTimeout = TimeSpan.FromMilliseconds(50);
 pin.ValueChanged += ButtonPressed;

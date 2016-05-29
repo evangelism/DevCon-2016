@@ -47,7 +47,6 @@ HostName=ReactionHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAcc
   * Название: `devconstore`
   * Ключ доступа: `8xi4h10NyQnfehpbX+Xwf0xcznDANUHhEBvZpgoQ43ZzJawTyBmcQSbtcleOIrVVzUvrNoA1U0pDxYFck9L/PQ==`
 
-
 ## Проанализируйте данные с помощью Azure Machine Learning
 
 Возьмите таблицу со всеми накопленными данными и попробуйте провести некоторый анализ с помощью Azure ML:
