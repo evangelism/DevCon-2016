@@ -1,0 +1,24 @@
+<div class="page-header">
+    <h1>Customers</h1>
+</div>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let customer of customers | async">
+      <td>{{customer.Id}}</td>
+      <td>{{customer.Name | uppercase}} 
+        <span class="label label-warning"
+        *ngIf="customer.Age <= 25">young</span></td>
+        <td><a class="btn btn-lg btn-default" 
+        [routerLink]="['/customer', customer.Id]">Edit</a>
+      </td>
+    </tr>
+  </tbody>
+</table>

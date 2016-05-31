@@ -1,0 +1,24 @@
+install ubuntu https://www.microsoft.com/net/core#ubuntu
+
+git clone https://github.com/SychevIgor/conferences
+cd conferences/MSDevCon2016/src/src
+
+dotnet restore
+dotnet run
+
+
+install ubuntu graphical interface
+http://www.htpcbeginner.com/install-gui-on-ubuntu-server-14-04-gnome/
+sudo apt-get install --no-install-recommends ubuntu-desktop
+
+rdp to linux vm
+http://askubuntu.com/questions/592537/can-i-access-to-ubuntu-from-windows-remotely
+sudo apt-get install xrdp
+sudo apt-get install xfce4
+echo xfce4-session >~/.xsession
+sudo nano /etc/xrdp/startwm.sh
+sudo service xrdp restart
+
+install chrome
+http://askubuntu.com/questions/510056/how-to-install-google-chrome
+sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'

@@ -1,0 +1,6 @@
+<h1 *ngIf="showHello">Hello, Angular 2</h1>
+<h2 [style.color]="color">{{fullName}}</h2>
+<input [value]="color"><br/>
+<button (click) = "onSave()">Save</button><br/>
+<input [(ngModel)]="color"><br/>
+<div *ngFor="let name of names">{{name}}</div>

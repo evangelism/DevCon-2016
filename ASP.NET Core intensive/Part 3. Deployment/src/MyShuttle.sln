@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{161B4D08-0439-464E-B472-409BA0287CA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7A9BD67-8342-4598-9D75-3711F1A9A1BC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyShuttle.Web", "src\MyShuttle\MyShuttle.Web.xproj", "{0EDBC8B4-2803-4442-8038-014485151F98}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyShuttle.Model", "src\MyShuttle.Model\MyShuttle.Model.xproj", "{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyShuttle.Data", "src\MyShuttle.Data\MyShuttle.Data.xproj", "{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MyShuttle.API", "src\MyShuttle.API\MyShuttle.API.xproj", "{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EDBC8B4-2803-4442-8038-014485151F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EDBC8B4-2803-4442-8038-014485151F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EDBC8B4-2803-4442-8038-014485151F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EDBC8B4-2803-4442-8038-014485151F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EDBC8B4-2803-4442-8038-014485151F98} = {161B4D08-0439-464E-B472-409BA0287CA3}
+		{CF22F5EC-4E6F-4C76-BB3A-FC24F60D89E3} = {161B4D08-0439-464E-B472-409BA0287CA3}
+		{2B03C17F-00FA-4994-AE3F-7C3D7112ADA0} = {161B4D08-0439-464E-B472-409BA0287CA3}
+		{B817D0A3-FA64-4FC9-8FC9-A7EDFACD5CBB} = {161B4D08-0439-464E-B472-409BA0287CA3}
+	EndGlobalSection
+EndGlobal

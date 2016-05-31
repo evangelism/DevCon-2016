@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "MyShuttle.Data Class Library",
+
+  "frameworks": {
+    "net461": {
+      "frameworkAssemblies": {
+        "System.ComponentModel": "4.0.0.0"
+      }
+    },
+    "netstandard1.5": {
+      "dependencies": {
+      },
+      "imports": [
+        "portable-net451+win8"
+      ]
+    }
+  },
+  "dependencies": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0-*",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-*",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-*",
+    "MyShuttle.Model": "1.0.0-*"
+  }
+}

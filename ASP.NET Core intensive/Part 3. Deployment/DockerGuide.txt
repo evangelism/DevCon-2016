@@ -1,0 +1,7 @@
+install docker https://www.microsoft.com/net/core#docker
+"sudo usermod -aG docker igorsych" igorsych- имя пользователя
+переподключиться через  ssh
+
+run docker interactive mode with portforwarding
+
+docker run -p 5000:5000 -it microsoft/dotnet:latest 

@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+  "description": "MyShuttle.API Class Library",
+
+  "frameworks": {
+    "net461": { },
+    "netstandard1.5": {
+      "dependencies": {
+        "System.ComponentModel.TypeConverter": "4.0.1-*"
+      },
+      "imports": [
+        "portable-net451+win8"
+      ]
+    }
+  },
+
+  "dependencies": {
+    "MyShuttle.Data": "1.0.0-*",
+    "MyShuttle.Model": "1.0.0-*",
+    "Microsoft.AspNetCore.Mvc": "1.0.0-*"
+  }
+}
